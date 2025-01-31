@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon的GPT小店</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function showPopup(content) {
+            const popup = document.getElementById('popup');
+            const popupContent = document.getElementById('popup-content');
+            popupContent.innerHTML = content;
+            popup.classList.remove('hidden');
+        }
+        function closePopup() {
+            document.getElementById('popup').classList.add('hidden');
+        }
+    </script>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-4xl mx-auto py-10">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+            <h1 class="text-2xl font-bold text-gray-900">Leon的GPT小店</h1>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4" onclick="showPopup('<h2 class=\'text-lg font-bold\'>微信客服</h2><p class=\'mt-2\'>请扫码添加客服微信</p><img src=\'img/IMG_202501294566_967x760.jpg\' class=\'mt-4 rounded-lg\' alt=\'客服二维码\'>')">微信客服</button>
+        </div>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
+            <h2 class="text-xl font-semibold">📌 Leon的GPT小店 - 您的AI模型专属服务商- 即付即用的服务</h2>
+            <div class="mt-4 p-4 border rounded-lg bg-blue-50">
+                <h3 class="text-lg font-semibold">🔹 Chat GPT账号</h3>
+                <p>✨ 享受官网原版GPT-4：低至3.78元/天</p>
+                <p>‼️‼️‼️官网一月标价为145元，本店价格较官网更低‼️‼️‼️</p>
+                <p>💡 会员有效期内稳定售后服务</p>
+                <p>💡账号出现问题按天书退款</p>
+            </div>
+            <div class="mt-4 p-4 border rounded-lg bg-blue-50">
+                <h3 class="text-lg font-semibold">🔹 Claude Pro账号</h3>
+                <p>✨ 享受官网原版Claude模型：低至4.68元/天</p>
+                <p>‼️‼️‼️官网一月标价为208元，本店价格较官网更低‼️‼️‼️</p>
+                <p>💡 会员有效期内稳定售后服务</p>
+                <p>💡账号出现问题按天书退款</p>
+            </div>
+            <h3 class="mt-4 font-semibold">🏆 为什么选择我们的服务？</h3>
+            <p>长期稳定（会员有效期内）| 全天专业维护</p>
+            <p>不封号 | 保障不可用可退款 | 如有问题按天退费</p>
+            <p>店内价格均低于官网价格</p>
+            <p>承诺出售账号真实性，拒绝黑号、共享号</p>
+        </div>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
+            <h2 class="text-lg font-semibold bg-blue-100 px-4 py-2 rounded">ChatGPT Plus官网原版成品号/代充</h2>
+            <table class="w-full mt-4 border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 px-4 py-2">商品名称</th>
+                        <th class="border border-gray-300 px-4 py-2">周期</th>
+                        <th class="border border-gray-300 px-4 py-2">价格</th>
+                        <th class="border border-gray-300 px-4 py-2">单位价格（每月）</th>
+                        <th class="border border-gray-300 px-4 py-2">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">ChatGPT Plus 会员官网原版一月</td>
+                        <td class="border border-gray-300 px-4 py-2">一个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥130</td>
+                        <td class="border border-gray-300 px-4 py-2">¥130</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>ChatGPT Plus 会员官网原版一月</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥130</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">ChatGPT Plus 会员官网原版一季度</td>
+                        <td class="border border-gray-300 px-4 py-2">三个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥375</td>
+                        <td class="border border-gray-300 px-4 py-2">¥125</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>ChatGPT Plus 会员官网原版一季度</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥375</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">ChatGPT Plus 会员官网原版半年</td>
+                        <td class="border border-gray-300 px-4 py-2">六个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥720</td>
+                        <td class="border border-gray-300 px-4 py-2">¥120</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>ChatGPT Plus 会员官网原版半年</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥720</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">ChatGPT Plus 会员官网原版全年</td>
+                        <td class="border border-gray-300 px-4 py-2">十二个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥1380</td>
+                        <td class="border border-gray-300 px-4 py-2">¥115</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>ChatGPT Plus 会员官网原版全年</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥1380</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+
+
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 mt-6">
+            <h2 class="text-lg font-semibold bg-blue-100 px-4 py-2 rounded">Claude Pro官网原版成品号/代充</h2>
+            <table class="w-full mt-4 border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 px-4 py-2">商品名称</th>
+                        <th class="border border-gray-300 px-4 py-2">周期</th>
+                        <th class="border border-gray-300 px-4 py-2">价格</th>
+                        <th class="border border-gray-300 px-4 py-2">单位价格（每月）</th>
+                        <th class="border border-gray-300 px-4 py-2">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">Claude Pro 会员官网原版一月</td>
+                        <td class="border border-gray-300 px-4 py-2">一个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥160</td>
+                        <td class="border border-gray-300 px-4 py-2">¥160</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>Claude Pro 会员官网原版一月</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥160</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">Claude Pro 会员官网原版一季度</td>
+                        <td class="border border-gray-300 px-4 py-2">三个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥465</td>
+                        <td class="border border-gray-300 px-4 py-2">¥155</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>Claude Pro 会员官网原版一季度</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥465</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">Claude Pro 会员官网原版半年</td>
+                        <td class="border border-gray-300 px-4 py-2">六个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥900</td>
+                        <td class="border border-gray-300 px-4 py-2">¥150</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>Claude Pro 会员官网原版半年</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥900</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2">Claude Pro 会员官网原版全年</td>
+                        <td class="border border-gray-300 px-4 py-2">十二个月</td>
+                        <td class="border border-gray-300 px-4 py-2">¥1740</td>
+                        <td class="border border-gray-300 px-4 py-2">¥145</td>
+                        <td class="border border-gray-300 px-4 py-2">
+                            <button class="bg-blue-500 text-white px-3 py-1 rounded" onclick="showPopup('<h2 class=\'text-lg font-bold\'>购买方法</h2><p class=\'mt-2\'>扫面下方二维码添加微信<br><span class=\'font-semibold\'>Claude Pro 会员官网原版全年</span></p><p class=\'mt-2 text-green-600 font-bold\'>价格: ¥1740</p><img src=\'img/wx.JPG\' style=\'display: block; margin: 0 auto; width: 130px; height: 100px;\' class=\'mt-4 rounded-lg\' alt=\'商品图片\'>')">购买</button>
+                        </td>
+
+
+
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="popup" class="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center hidden">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div id="popup-content" class="text-center"></div>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded" onclick="closePopup()">关闭</button>
+        </div>
+    </div>
+    <footer class="bg-gray-200 text-center py-4">
+        <p class="text-sm text-gray-600">Designed by Leon</p>
+        <p class="text-sm text-gray-600">@2025 Leon's GPT shop all rights reserved </p>
+        <div class="mt-2">
+            <a href="User Agreement.html" class="text-blue-500 hover:underline mr-4">用户协议</a>
+            <a href="Privacy Policy.html" class="text-blue-500 hover:underline">隐私政策</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
